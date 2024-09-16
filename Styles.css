@@ -1,0 +1,74 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aqua;
+    background-image: url("This.jpeg");
+    background-position: 0%;
+    background-size: cover;
+    background-position: center center;
+}
+h2{
+    color:aqua;
+    text-shadow: 0 0 5px #00ffc8;
+}
+.frame {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.dropdown ul {
+    display: none;
+   
+  }
+  
+  .dropdown li:hover ul {
+    display: block;
+  }
+
+  nav {
+    position:absolute;
+    top:0;
+    right:0;
+  }
+
+  h1{
+    font-family:'PT sans',sans-serif;
+    text-shadow: 0 0 5px #00ffc8;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  h3{
+    font-family:'roboto',sans-serif; 
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0 0 5px #00ffc8;
+  }
+
+  a {
+    color: #f2f6f7;
+}
+
+.timeline {
+  position: relative;
+  height: 400px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+}
+
+
+.width{
+    background-color: #ccc;
+}
+
+.timeline-event {
+    width: 50%;
+    float: left;
+    clear: both;
+    position: relative;
+
+}
